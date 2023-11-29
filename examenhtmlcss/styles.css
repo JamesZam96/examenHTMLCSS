@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(182, 133, 68);
+    font-weight: bold;
+
+}
+
+a:hover{
+    color: gray;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3.5rem;
+    background-color: aliceblue;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav h1{
+    color:rgb(182, 133, 68);
+    font-weight: bold;
+}
+
+nav ul{
+    display: flex;
+    gap: 5rem
+}
+
+/*section imagen hotel*/
+.imghotel{
+    width: 100%;
+    height: 80vh;
+}
+
+/*section reserva individual*/
+.individual{
+    margin-top: 3rem;
+    justify-content: center;
+}
+
+.contenedor-formulario-individual h3{
+    text-align: center;
+    color: rgb(182, 133, 68);
+    margin-bottom: 1rem;
+}
+
+.contenedor-formulario-individual{
+    max-width: fit-content;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 3px;
+    box-shadow: 0 3px 10px rgb(182, 133, 68);
+}
+
+.contenedor-formulario-individual label{
+    color: rgb(182, 133, 68);
+    font-weight: bold;
+    line-height: 3em;
+}
+
+.contenedor-formulario-individual input{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    border: 2px inset rgb(182, 133, 68);;
+    font-size: 0.875rem;
+    outline: none;
+}
+
+.contenedor-formulario-individual select{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    border: 2px inset rgb(182, 133, 68);;
+    font-size: 0.875rem;
+    outline: none;
+    margin-bottom: 1.5rem;
+}
+
+input::placeholder {
+    padding: 0.5rem;
+    color: rgb(182, 133, 68);
+}
+
+.btn-reservar {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff;
+    border: 2px solid var(--primary-color);
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.btn-reservar:hover{
+    background-color: rgb(231, 196, 196);
+    border: 2px solid brown;
+    cursor: pointer;
+}
+
+/**/
+/*section reserva empresa*/
+.empresa{
+    margin-top: 3rem;
+    justify-content: center;
+}
+
+.contenedor-formulario-empresa h3{
+    text-align: center;
+    color: rgb(182, 133, 68);
+    margin-bottom: 1rem;
+}
+
+.contenedor-formulario-empresa{
+    max-width: fit-content;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 3px;
+    box-shadow: 0 3px 10px rgb(182, 133, 68);
+}
+
+.contenedor-formulario-empresa label{
+    color: rgb(182, 133, 68);
+    font-weight: bold;
+    line-height: 3em;
+}
+
+.contenedor-formulario-empresa input{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    border: 2px inset rgb(182, 133, 68);;
+    font-size: 0.875rem;
+    outline: none;
+}
+
+.contenedor-formulario-empresa select{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    border: 2px inset rgb(182, 133, 68);
+    font-size: 0.875rem;
+    outline: none;
+    margin-bottom: 1.5rem;
+}
+
+.reservain{
+    margin-top: 2rem;
+    color: rgb(182, 133, 68);
+    text-align: center;
+}
+
+.reservaem{
+    margin-top: 2rem;
+    color: rgb(182, 133, 68);
+    text-align: center;
+}
+
+.ubicacion{
+    margin-top: 2rem;
+    color: rgb(182, 133, 68);
+    text-align: center;
+}
+
+/*section contacto*/
+.contacto{
+    margin-top: 4rem;
+    text-align: center;
+    color: rgb(182, 133, 68)
+}
